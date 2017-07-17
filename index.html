@@ -9,7 +9,6 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <style>
@@ -23,7 +22,6 @@
         <link rel="stylesheet" href="css/main.css">
         <link href="https://fonts.googleapis.com/css?family=Dosis:300,400,500,600" rel="stylesheet">
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
@@ -198,7 +196,7 @@
             $(document).ready(function() {
                 $.ajax({
                  type:"GET",
-                   url:"http://api.data.gov.in/resource/89fb1d3e-e7f6-4730-9bd6-ed835f02f738?format=json&api-key=YOURKEY",
+                   url:"https://api.data.gov.in/resource/89fb1d3e-e7f6-4730-9bd6-ed835f02f738?format=json&api-key=YOURKEY",
                    data: {},
                 success: function(data){
                      list1 = [];
