@@ -7,8 +7,38 @@
     background: #45B649;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #45B649, #DCE35B);  /* Chrome 10-25, Safari 5.1-6 */
 /*background: linear-gradient(#45B649, #DCE35B, transparent), url("/img/background.jpg") repeat center; */
-
 }
+* {
+  margin: 0; 
+  padding: 0;
+}
+
+#container {
+  overflow: hidden;
+  height: 700px;
+  background: #edeae8;
+  position: relative;
+}
+
+video {
+  position: absolute;
+    width: 100%;
+  
+  /* Vertical and Horizontal center*/
+  left: 50%; 
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+#overlay {
+  position: absolute;
+  top: 0; 
+  right: 0; 
+  left: 0; 
+  bottom: 0;
+  
+  background: rgba(0,0,0,0.5);
+}
+
 .header { 
     padding-top: 170px; 
     height: 620px;
