@@ -12,9 +12,9 @@ $(document).ready(function() {
         console.log(data);
          list1 = [];
         list2 = [];
-        for (var i =0; i < data[records].length; i ++){
-            list1.push(data[records][i]['area_afforested_in_plan_period_000_hectares_'])
-            list2.push(data[records][i]['afforestation_expenditure_in_plan_period_ten_million_'])
+        for (var i =0; i < data['records'].length; i ++){
+            list1.push(data['records'][i]['area_afforested_in_plan_period_000_hectares_'])
+            list2.push(data['records'][i]['afforestation_expenditure_in_plan_period_ten_million_'])
                console.log(data['records'][i]['five_year_plan_period']);
             
             
