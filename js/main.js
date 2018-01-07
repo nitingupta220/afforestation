@@ -6,7 +6,7 @@ $(window).load(function() {
 $(document).ready(function() {
     $.ajax({
      type:"GET",
-       url:"https://api.data.gov.in/resource/89fb1d3e-e7f6-4730-9bd6-ed835f02f738?format=json&api-key=YOURKEY",
+       url:"https://api.data.gov.in/resource/95944150-9ef3-457e-b991-0e4929d407b8?format=json&api-key=579b464db66ec23bdd0000014f8e0dd7773847b25df37f4cf70397c2",
        data: {},
     success: function(data){
          list1 = [];
