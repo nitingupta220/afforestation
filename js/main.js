@@ -9,6 +9,7 @@ $(document).ready(function() {
        url:"https://api.data.gov.in/resource/95944150-9ef3-457e-b991-0e4929d407b8?format=json&api-key=579b464db66ec23bdd0000014f8e0dd7773847b25df37f4cf70397c2",
        data: {},
     success: function(data){
+        console.log(data);
          list1 = [];
         list2 = [];
         for (var i =0; i < data['records'].length; i ++){
